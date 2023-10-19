@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background: #000 url(stars.jfif) repeat;
+    font-family: 'Star Wars', sans-serif;
+    color: #FFF;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    margin: 4rem;
+    font-size: 3rem;
+}
+
+.swiper {
+    max-width: 1440px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.swiper-slide img {
+    height: 80vh;
+    width: auto;
+    border-radius: 50%;
+}
+
+.swiper-slide .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: rgba(255, 255, 0, 0.6);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: yellow;
+}
+
+a {
+    background-color: rgba(255, 255, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 1rem;
+    color: #000;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+.planet {
+    max-width: 1200px;
+    padding: 1rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.planet img {
+    max-width: 500px;
+    border-radius: 50%;
+}
+
+.planet span {
+    font-family: sans-serif;
+}
