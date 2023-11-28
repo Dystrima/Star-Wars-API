@@ -17,7 +17,7 @@ a {
 }
 
 body {
-    background: #000 url(stars.jfif) repeat;
+    background: #000 url("Assets/stars.jfif") repeat;
     font-family: 'Star Wars', sans-serif;
     color: #FFF;
 }
